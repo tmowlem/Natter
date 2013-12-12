@@ -11,8 +11,9 @@ port=<number> where <number> is a port number in the standard range
 To run the client:
 
 Open a shell
-cd to the directory containing the root of the class hierarchy, e.g. if you unpacked the Natter directory to C:\dev then:
-cd C:\dev\Natter\out\production\Natter
+Compile the sources
+cd to the directory containing the root of the class hierarchy
+
 java -cp . uk.co.objecttechnologies.natter.NatterServer [port=4560]
 
 
@@ -44,8 +45,8 @@ help									Prints this help message
 To run the client:
 
 Open a shell
-cd to the directory containing the root of the class hierarchy, e.g. if you unpacked the Natter directory to C:\dev then:
-cd C:\dev\Natter\out\production\Natter
+Compile the sources
+cd to the directory containing the root of the class hierarchy
 
 java -cp . uk.co.objecttechnologies.natter.NatterClient [server=myhost] [port=4560]
 
